@@ -12,6 +12,13 @@ namespace ConsoleApp1
         {
             Console.WriteLine("Hello World");
             Console.WriteLine("Good Morning");
+            Func();
+
+        }
+
+        static void Func()
+        {
+            Console.WriteLine("Do Something...");
         }
     }
 }
